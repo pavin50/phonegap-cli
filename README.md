@@ -285,4 +285,14 @@ data we collect.
 
 [travis-ci-img]: https://travis-ci.org/phonegap/phonegap-cli.svg?branch=master
 [travis-ci-url]: http://travis-ci.org/phonegap/phonegap-cli
-[package-template]: https://github.com/phonegap/phonegap-cli/blob/035057713c613cc0488e4b0beb5b72c4c820d54a/package.json#L67-L76
+[package-template]: https://github.com/phonegap/phonegap-cli/blob/0
+    "templates": {
+        "hello-world": {
+            "description": "Default hello world app for PhoneGap.",
+            "url": "https://github.com/phonegap/phonegap-app-hello-world/archive/master.tar.gz"
+        },
+        "hello-world-cordova": {
+            "description": "Default hello world app for Cordova.",
+            "url": "https://github.com/apache/cordova-app-hello-world/archive/master.tar.gz"
+        }
+    }
